@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    background: linear-gradient(349deg, #2A2A84 41.92%, rgba(42, 42, 132, 0.80) 118.48%);
+    /* height: 100vh; */
+  }
+
+  @font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+       url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+       url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+    src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+       url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+       url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'adelle_rgregular';
+    src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot');
+    src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://litmus.com/fonts/Emails/adelle_reg-webfont.woff') format('woff'),
+       url('https://litmus.com/fonts/Emails/adelle_reg-webfont.ttf') format('truetype'),
+       url('https://litmus.com/fonts/Emails/adelle_reg-webfont.svg#adelle_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h1{
+    margin: 0px;
+     font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+  }
+  .maindiv{
+    margin: 0 40px;
+    height: 100vh;
+    overflow: hidden; 
+  }
+  .headertext{
+    color: #F5F5F5;
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    text-transform: uppercase;
+  }
+  .paratext{
+    color: #DBDBDB;
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+  .content-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+  }
+
+  .btnmaintenance{
+    color: #DBDBDB;
+    /* width: 200px; */
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    border-radius: 12px;
+    padding: 15px 40px;
+    background: var(--Pink, #ED037C);
+    box-shadow: 4px 10px 23px 0px rgba(0, 0, 0, 0.20);
+    border: none;
+    text-decoration: none;
+  }
+  .btnmaintenance:hover{
+    cursor: pointer;
+  }
+  .btnmaintenancediv1{
+    display: none;
+  }
+  .btnmaintenancediv{
+    display: block;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .sitegif{
+      width: 450px;
+      }
+      .headertext{
+        font-size: 38px;
+        line-height: 45px;
+      }
+  }
+  @media screen and (max-width: 1100px) {
+    .content-div{
+      gap: 0px;
+    }
+  }
+@media screen and (max-width: 992px) {
+
+  .btnmaintenancediv{
+    display: none;
+  }
+  .sitegif {
+    width: 360px;
+    margin-top: -50px;
+}
+  .content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+  }
+
+  .maindiv{
+    margin: 0 10px;
+    height: 100vh;
+    overflow: hidden; 
+  }
+.btnmaintenancediv{
+  text-align: center;
+}
+.btnmaintenancediv1{
+  display: block;
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .headertext {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+  .sitegif{
+    width: 300px;
+    margin-top: -40px;
+    margin-left: 20px;
+  }
+
+  .maintenancebr{
+    display: none;
+  }
+
+  .paratext{
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+}
+
